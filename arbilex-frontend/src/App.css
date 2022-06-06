@@ -1,0 +1,140 @@
+.container {
+  display: grid | inline-grid;
+  background-color:#FFFFFF; 
+  width: 1050px;
+  margin: auto;
+}
+
+h1.headline {
+  font-size: 44px;
+}
+
+.head-content {
+	font-size: 24px;
+}
+
+.blue-button {
+	background-color: #2d3ecc;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 15px 23px 15px 23px;
+	border: 0;
+	border-radius: 8px;
+}
+
+.panel { 
+  float: left;
+  object-fit: fill;
+  padding: 0;
+}
+
+.panel.large {
+  height: 600px;
+  padding-bottom: 30px;
+}
+
+.panel.medium {
+  width: 100%;
+  height: 150px;
+}
+
+.panel.small {
+  height: 150px;
+  width: 32%;
+  padding: 0; 
+}
+
+.panel.small.middle {
+  padding: 0 2% 20px 2%;
+}
+
+.panel-content {
+	position:relative;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #eee;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 0;
+}
+
+.panel-content img {
+  height: 100%;
+  float: left; 
+  padding: 0 20px 0 0;
+  margin-left: -12px;
+}
+
+.row {
+  height: 80px;
+  width: 100%;
+}
+
+.no-border {
+  border: 0;
+}
+
+.panel-caption {
+	display: flex;
+	font-size: 24px;
+	position: absolute;
+	bottom: 40px;
+	width: 100%;
+	text-align: left;	
+}
+
+.panel-subcaption {
+  font-size: 16px;
+  color: #999;
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	text-align: left;	
+}
+
+.slider-caption {
+	padding-top: 30px;
+  font-size: 18px;
+}.
+
+.slider-controller {
+	padding-top: 150px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

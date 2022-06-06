@@ -1,0 +1,15 @@
+{
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "rules": {
+      "import/no-extraneous-dependencies": [
+          "error",
+          {
+            "devDependencies": [
+              "**/*.stories.*",
+              "**/.storybook/**/*.*"
+            ],
+            "peerDependencies": true
+          }
+        ]
+    }
+}
