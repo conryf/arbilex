@@ -60,4 +60,5 @@ opinion TEXT,
 direction TEXT,
 majority TEXT,
 firstAgreement TEXT,
-secondAgreement TEXT);
+secondAgreement TEXT,
+pretty_name TEXT);

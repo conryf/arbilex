@@ -87,7 +87,9 @@ DATABASES = {
  
         'USER': 'frank',
  
-        'HOST': 'localhost'
+        'HOST': '',
+
+        'PASSWORD': 'arbilex'
  
     }
  
